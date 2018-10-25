@@ -7,16 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "RecordView.h"
 
 @interface ViewController ()
-
+@property (nonatomic, weak) IBOutlet RecordView *recordView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
