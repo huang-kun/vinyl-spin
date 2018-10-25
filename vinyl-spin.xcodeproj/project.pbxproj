@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A8CABE621817BF5009E3B86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CABE521817BF5009E3B86 /* AppDelegate.m */; };
+		1A8CABE921817BF5009E3B86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CABE821817BF5009E3B86 /* ViewController.m */; };
+		1A8CABEC21817BF5009E3B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8CABEA21817BF5009E3B86 /* Main.storyboard */; };
+		1A8CABEE21817BF8009E3B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8CABED21817BF8009E3B86 /* Assets.xcassets */; };
+		1A8CABF121817BF8009E3B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8CABEF21817BF8009E3B86 /* LaunchScreen.storyboard */; };
+		1A8CABF421817BF8009E3B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CABF321817BF8009E3B86 /* main.m */; };
+		1A8CABFE21817BF8009E3B86 /* vinyl_spinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CABFD21817BF8009E3B86 /* vinyl_spinTests.m */; };
+		1A8CAC0921817BF8009E3B86 /* vinyl_spinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CAC0821817BF8009E3B86 /* vinyl_spinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A8CABFA21817BF8009E3B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8CABD921817BF5009E3B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8CABE021817BF5009E3B86;
+			remoteInfo = "vinyl-spin";
+		};
+		1A8CAC0521817BF8009E3B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8CABD921817BF5009E3B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8CABE021817BF5009E3B86;
+			remoteInfo = "vinyl-spin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A8CABE121817BF5009E3B86 /* vinyl-spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vinyl-spin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8CABE421817BF5009E3B86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A8CABE521817BF5009E3B86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A8CABE721817BF5009E3B86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A8CABE821817BF5009E3B86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A8CABEB21817BF5009E3B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A8CABED21817BF8009E3B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A8CABF021817BF8009E3B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A8CABF221817BF8009E3B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8CABF321817BF8009E3B86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A8CABF921817BF8009E3B86 /* vinyl-spinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vinyl-spinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8CABFD21817BF8009E3B86 /* vinyl_spinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vinyl_spinTests.m; sourceTree = "<group>"; };
+		1A8CABFF21817BF8009E3B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8CAC0421817BF8009E3B86 /* vinyl-spinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vinyl-spinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8CAC0821817BF8009E3B86 /* vinyl_spinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vinyl_spinUITests.m; sourceTree = "<group>"; };
+		1A8CAC0A21817BF8009E3B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8CABDE21817BF5009E3B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CABF621817BF8009E3B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CAC0121817BF8009E3B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8CABD821817BF5009E3B86 = {
+			isa = PBXGroup;
+			children = (
+				1A8CABE321817BF5009E3B86 /* vinyl-spin */,
+				1A8CABFC21817BF8009E3B86 /* vinyl-spinTests */,
+				1A8CAC0721817BF8009E3B86 /* vinyl-spinUITests */,
+				1A8CABE221817BF5009E3B86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A8CABE221817BF5009E3B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8CABE121817BF5009E3B86 /* vinyl-spin.app */,
+				1A8CABF921817BF8009E3B86 /* vinyl-spinTests.xctest */,
+				1A8CAC0421817BF8009E3B86 /* vinyl-spinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8CABE321817BF5009E3B86 /* vinyl-spin */ = {
+			isa = PBXGroup;
+			children = (
+				1A8CABE421817BF5009E3B86 /* AppDelegate.h */,
+				1A8CABE521817BF5009E3B86 /* AppDelegate.m */,
+				1A8CABE721817BF5009E3B86 /* ViewController.h */,
+				1A8CABE821817BF5009E3B86 /* ViewController.m */,
+				1A8CABEA21817BF5009E3B86 /* Main.storyboard */,
+				1A8CABED21817BF8009E3B86 /* Assets.xcassets */,
+				1A8CABEF21817BF8009E3B86 /* LaunchScreen.storyboard */,
+				1A8CABF221817BF8009E3B86 /* Info.plist */,
+				1A8CABF321817BF8009E3B86 /* main.m */,
+			);
+			path = "vinyl-spin";
+			sourceTree = "<group>";
+		};
+		1A8CABFC21817BF8009E3B86 /* vinyl-spinTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8CABFD21817BF8009E3B86 /* vinyl_spinTests.m */,
+				1A8CABFF21817BF8009E3B86 /* Info.plist */,
+			);
+			path = "vinyl-spinTests";
+			sourceTree = "<group>";
+		};
+		1A8CAC0721817BF8009E3B86 /* vinyl-spinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8CAC0821817BF8009E3B86 /* vinyl_spinUITests.m */,
+				1A8CAC0A21817BF8009E3B86 /* Info.plist */,
+			);
+			path = "vinyl-spinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A8CABE021817BF5009E3B86 /* vinyl-spin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8CAC0D21817BF8009E3B86 /* Build configuration list for PBXNativeTarget "vinyl-spin" */;
+			buildPhases = (
+				1A8CABDD21817BF5009E3B86 /* Sources */,
+				1A8CABDE21817BF5009E3B86 /* Frameworks */,
+				1A8CABDF21817BF5009E3B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vinyl-spin";
+			productName = "vinyl-spin";
+			productReference = 1A8CABE121817BF5009E3B86 /* vinyl-spin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A8CABF821817BF8009E3B86 /* vinyl-spinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8CAC1021817BF8009E3B86 /* Build configuration list for PBXNativeTarget "vinyl-spinTests" */;
+			buildPhases = (
+				1A8CABF521817BF8009E3B86 /* Sources */,
+				1A8CABF621817BF8009E3B86 /* Frameworks */,
+				1A8CABF721817BF8009E3B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8CABFB21817BF8009E3B86 /* PBXTargetDependency */,
+			);
+			name = "vinyl-spinTests";
+			productName = "vinyl-spinTests";
+			productReference = 1A8CABF921817BF8009E3B86 /* vinyl-spinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A8CAC0321817BF8009E3B86 /* vinyl-spinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8CAC1321817BF8009E3B86 /* Build configuration list for PBXNativeTarget "vinyl-spinUITests" */;
+			buildPhases = (
+				1A8CAC0021817BF8009E3B86 /* Sources */,
+				1A8CAC0121817BF8009E3B86 /* Frameworks */,
+				1A8CAC0221817BF8009E3B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8CAC0621817BF8009E3B86 /* PBXTargetDependency */,
+			);
+			name = "vinyl-spinUITests";
+			productName = "vinyl-spinUITests";
+			productReference = 1A8CAC0421817BF8009E3B86 /* vinyl-spinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8CABD921817BF5009E3B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = huangkun;
+				TargetAttributes = {
+					1A8CABE021817BF5009E3B86 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1A8CABF821817BF8009E3B86 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1A8CABE021817BF5009E3B86;
+					};
+					1A8CAC0321817BF8009E3B86 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1A8CABE021817BF5009E3B86;
+					};
+				};
+			};
+			buildConfigurationList = 1A8CABDC21817BF5009E3B86 /* Build configuration list for PBXProject "vinyl-spin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A8CABD821817BF5009E3B86;
+			productRefGroup = 1A8CABE221817BF5009E3B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A8CABE021817BF5009E3B86 /* vinyl-spin */,
+				1A8CABF821817BF8009E3B86 /* vinyl-spinTests */,
+				1A8CAC0321817BF8009E3B86 /* vinyl-spinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8CABDF21817BF5009E3B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8CABF121817BF8009E3B86 /* LaunchScreen.storyboard in Resources */,
+				1A8CABEE21817BF8009E3B86 /* Assets.xcassets in Resources */,
+				1A8CABEC21817BF5009E3B86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CABF721817BF8009E3B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CAC0221817BF8009E3B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8CABDD21817BF5009E3B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8CABE921817BF5009E3B86 /* ViewController.m in Sources */,
+				1A8CABF421817BF8009E3B86 /* main.m in Sources */,
+				1A8CABE621817BF5009E3B86 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CABF521817BF8009E3B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8CABFE21817BF8009E3B86 /* vinyl_spinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CAC0021817BF8009E3B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8CAC0921817BF8009E3B86 /* vinyl_spinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A8CABFB21817BF8009E3B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8CABE021817BF5009E3B86 /* vinyl-spin */;
+			targetProxy = 1A8CABFA21817BF8009E3B86 /* PBXContainerItemProxy */;
+		};
+		1A8CAC0621817BF8009E3B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8CABE021817BF5009E3B86 /* vinyl-spin */;
+			targetProxy = 1A8CAC0521817BF8009E3B86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A8CABEA21817BF5009E3B86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8CABEB21817BF5009E3B86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A8CABEF21817BF8009E3B86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A8CABF021817BF8009E3B86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A8CAC0B21817BF8009E3B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A8CAC0C21817BF8009E3B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A8CAC0E21817BF8009E3B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S67G6A35R;
+				INFOPLIST_FILE = "vinyl-spin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangkun.vinyl-spin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A8CAC0F21817BF8009E3B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S67G6A35R;
+				INFOPLIST_FILE = "vinyl-spin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangkun.vinyl-spin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A8CAC1121817BF8009E3B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S67G6A35R;
+				INFOPLIST_FILE = "vinyl-spinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangkun.vinyl-spinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vinyl-spin.app/vinyl-spin";
+			};
+			name = Debug;
+		};
+		1A8CAC1221817BF8009E3B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S67G6A35R;
+				INFOPLIST_FILE = "vinyl-spinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangkun.vinyl-spinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vinyl-spin.app/vinyl-spin";
+			};
+			name = Release;
+		};
+		1A8CAC1421817BF8009E3B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S67G6A35R;
+				INFOPLIST_FILE = "vinyl-spinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangkun.vinyl-spinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vinyl-spin";
+			};
+			name = Debug;
+		};
+		1A8CAC1521817BF8009E3B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S67G6A35R;
+				INFOPLIST_FILE = "vinyl-spinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huangkun.vinyl-spinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vinyl-spin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8CABDC21817BF5009E3B86 /* Build configuration list for PBXProject "vinyl-spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8CAC0B21817BF8009E3B86 /* Debug */,
+				1A8CAC0C21817BF8009E3B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8CAC0D21817BF8009E3B86 /* Build configuration list for PBXNativeTarget "vinyl-spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8CAC0E21817BF8009E3B86 /* Debug */,
+				1A8CAC0F21817BF8009E3B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8CAC1021817BF8009E3B86 /* Build configuration list for PBXNativeTarget "vinyl-spinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8CAC1121817BF8009E3B86 /* Debug */,
+				1A8CAC1221817BF8009E3B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8CAC1321817BF8009E3B86 /* Build configuration list for PBXNativeTarget "vinyl-spinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8CAC1421817BF8009E3B86 /* Debug */,
+				1A8CAC1521817BF8009E3B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A8CABD921817BF5009E3B86 /* Project object */;
+}
