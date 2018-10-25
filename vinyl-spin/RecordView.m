@@ -64,7 +64,7 @@
     _circularImageView.layer.masksToBounds = YES;
     [_circularShadowView addSubview:_circularImageView];
     
-    // Create a light dark filter
+    // Create a dim filter
     _circularFilterView = [UIView new];
     _circularFilterView.backgroundColor = [UIColor colorWithWhite:0.4 alpha:0.4];
     _circularFilterView.layer.cornerRadius = _imageWidth / 2;
@@ -106,6 +106,7 @@
        [_playButton.leftAnchor constraintEqualToAnchor:_circularShadowView.leftAnchor],
        [_playButton.rightAnchor constraintEqualToAnchor:_circularShadowView.rightAnchor],
        [_playButton.bottomAnchor constraintEqualToAnchor:_circularShadowView.bottomAnchor],
+       
        ]];
 }
 
