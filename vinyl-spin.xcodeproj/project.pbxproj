@@ -16,6 +16,7 @@
 		1A8CABFE21817BF8009E3B86 /* vinyl_spinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CABFD21817BF8009E3B86 /* vinyl_spinTests.m */; };
 		1A8CAC0921817BF8009E3B86 /* vinyl_spinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CAC0821817BF8009E3B86 /* vinyl_spinUITests.m */; };
 		1A8CAC1821817C3A009E3B86 /* RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CAC1721817C3A009E3B86 /* RecordView.m */; };
+		1A8CAC1B218191EA009E3B86 /* UIView+CoreAnimationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8CAC1A218191EA009E3B86 /* UIView+CoreAnimationHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1A8CAC0A21817BF8009E3B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8CAC1621817C3A009E3B86 /* RecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
 		1A8CAC1721817C3A009E3B86 /* RecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
+		1A8CAC19218191EA009E3B86 /* UIView+CoreAnimationHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CoreAnimationHandler.h"; sourceTree = "<group>"; };
+		1A8CAC1A218191EA009E3B86 /* UIView+CoreAnimationHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CoreAnimationHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				1A8CABE821817BF5009E3B86 /* ViewController.m */,
 				1A8CAC1621817C3A009E3B86 /* RecordView.h */,
 				1A8CAC1721817C3A009E3B86 /* RecordView.m */,
+				1A8CAC19218191EA009E3B86 /* UIView+CoreAnimationHandler.h */,
+				1A8CAC1A218191EA009E3B86 /* UIView+CoreAnimationHandler.m */,
 				1A8CABEA21817BF5009E3B86 /* Main.storyboard */,
 				1A8CABED21817BF8009E3B86 /* Assets.xcassets */,
 				1A8CABEF21817BF8009E3B86 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8CABE921817BF5009E3B86 /* ViewController.m in Sources */,
+				1A8CAC1B218191EA009E3B86 /* UIView+CoreAnimationHandler.m in Sources */,
 				1A8CAC1821817C3A009E3B86 /* RecordView.m in Sources */,
 				1A8CABF421817BF8009E3B86 /* main.m in Sources */,
 				1A8CABE621817BF5009E3B86 /* AppDelegate.m in Sources */,

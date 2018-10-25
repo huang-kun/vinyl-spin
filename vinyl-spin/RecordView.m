@@ -7,6 +7,7 @@
 //
 
 #import "RecordView.h"
+#import "UIView+CoreAnimationHandler.h"
 
 @interface RecordView ()
 @property (nonatomic, strong) UIImageView *circularImageView;
@@ -41,6 +42,8 @@
     
     [self setupViewHierarchy];
     [self setupLayoutConstraints];
+    [self setupAnimations];
+    [self setupGestures];
 }
 
 - (void)setupViewHierarchy {
@@ -106,14 +109,37 @@
        ]];
 }
 
+- (void)setupAnimations {
+    [_circularImageView ca_rotate360DegreesWithDuration:10];
+    [_circularImageView ca_pauseAnimations];
+}
+
+- (void)removeAnimations {
+    [_circularImageView.layer removeAllAnimations];
+}
+
+- (void)setupGestures {
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(reset:)];
+    tap.numberOfTapsRequired = 2;
+    [self addGestureRecognizer:tap];
+}
+
 - (void)playOrPause:(UIButton *)sender {
     sender.selected = !sender.isSelected;
     
     BOOL isPlaying = sender.isSelected;
     if (isPlaying) {
-        
+        [_circularImageView ca_resumeAnimations];
     } else {
-        
+        [_circularImageView ca_pauseAnimations];
+    }
+}
+
+- (void)reset:(UITapGestureRecognizer *)tap {
+    if (tap.state == UIGestureRecognizerStateRecognized) {
+        self.playButton.selected = NO;
+        [self removeAnimations];
+        [self setupAnimations];
     }
 }
 
